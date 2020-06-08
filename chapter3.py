@@ -21,7 +21,7 @@ def main():
         if increased_digits == True and ident_group >=2: 
             found += 1 
             print(number)
-    print(found)
+    print ("The answer is: {}".format(found))
 
 main()
 

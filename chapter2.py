@@ -79,7 +79,7 @@ def update(args):
             i=i+1
 
 
-    lines[index] = "{},{},{},{}\n".format(hash_to_update,args.name,args.deadline,args.description)
+    lines[index] = "{}, {}, {}, {}".format(hash_to_update,args.name,args.deadline,args.description)
 
     with open('tasklist.txt', 'w') as f:
         f.writelines(lines)

@@ -1,9 +1,3 @@
--988351623,maciek4, 2020-06-08, maciek4
--988351630,z,z8,dk8
--988351631,z,z8,dk8
--988351629,dddk8,dddk8,dddk8
--988351627,dddk8,dddk8,dddk8
--988351627,dddk8,2020-06-08,dddk8
--988351629,z,z8,dk8
--988351629,z,2020-06-08,dk8
-
+1312054263, Cleaning, 2020-04-05, Important
+-1731597040, Dishes, 2020-04-15, Also important
+-1643097023, Drinking, 2020-04-15, Also important
