@@ -11,13 +11,15 @@ class Car:
         self.pax_count = pax_count
         self.car_mass = car_mass
         self.gear_count = gear_count
-        if pax_count not in range(1,5):
+
+        if pax_count not in range(1,5):  #check if pax count is in the given range
            raise InvalidCarExeption('Pax_count out of range','InvalidPaxCountError')
-        elif car_mass > 2000:
+        elif car_mass > 2000:            #check if the car_mass is valid
             raise InvalidCarExeption('Car_mass out of range','InvalidCarMassError')
         else:
             print("Car added successfully!")
 
+    #check the same condtions as above for assigning values to the object
     def __setattr__(self, name, value):
         if name == "pax_count" and value not in range(1,5):
             raise InvalidCarExeption('Pax_count out of range','InvalidPaxCountError')
@@ -26,7 +28,7 @@ class Car:
 
     def total_mass(self):
         return self.car_mass
-    
+
 c = Car(3,2000,1)
 c.pax_count = 6
 

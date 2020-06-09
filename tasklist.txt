@@ -1,3 +1,5 @@
 1312054263, Cleaning, 2020-04-05, Important
--1731597040, Dishes, 2020-04-15, Also important
--1643097023, Drinking, 2020-04-15, Also important
+-1731597040, Eating dinner, 2020-06-09, Important
+1517442912, Vacuuming, 2020-10-10, Vacuum my room
+1299614129, Studying, 2020-06-09, English
+1299614129, Reading, 2020-11-10, Book
