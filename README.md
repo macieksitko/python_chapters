@@ -45,49 +45,49 @@ subcommands:
     remove              remove item
     list                show list
 
-chapter2.py add -h
+- chapter2.py add -h
 
-usage: chapter2.py add [-h] [-n NAME] [-d DEADLINE] [-s DESCRIPTION]
-optional arguments:
-  -h, --help            show this help message and exit
-  -n NAME, --name NAME
-  -d DEADLINE, --deadline DEADLINE
-  -s DESCRIPTION, --description DESCRIPTION
+  usage: chapter2.py add [-h] [-n NAME] [-d DEADLINE] [-s DESCRIPTION]
+  optional arguments:
+    -h, --help            show this help message and exit
+    -n NAME, --name NAME
+    -d DEADLINE, --deadline DEADLINE
+    -s DESCRIPTION, --description DESCRIPTION
 
-chapter2.py update -h
+- chapter2.py update -h
 
-usage: chapter2.py update [-h] [-n NAME] [-d DEADLINE] [-s DESCRIPTION]
-                          hash_to_update
+  usage: chapter2.py update [-h] [-n NAME] [-d DEADLINE] [-s DESCRIPTION]
+                            hash_to_update
 
-positional arguments:
-  hash_to_update
+  positional arguments:
+    hash_to_update
 
-optional arguments:
-  -h, --help            show this help message and exit
-  -n NAME, --name NAME
-  -d DEADLINE, --deadline DEADLINE
-  -s DESCRIPTION, --description DESCRIPTION
+  optional arguments:
+    -h, --help            show this help message and exit
+    -n NAME, --name NAME
+    -d DEADLINE, --deadline DEADLINE
+    -s DESCRIPTION, --description DESCRIPTION
 
-chapter2.py remove -h
-usage: chapter2.py remove [-h] hash_to_remove
+- chapter2.py remove -h
+  usage: chapter2.py remove [-h] hash_to_remove
 
-positional arguments:
-  hash_to_remove
+  positional arguments:
+    hash_to_remove
 
-chapter2.py list -h  
-usage: chapter2.py list [-h] [-a] [-t]
+- chapter2.py list -h  
+  usage: chapter2.py list [-h] [-a] [-t]
 
-optional arguments:
-  -h, --help   show this help message and exit
-  -a, --all
-  -t, --today 
+  optional arguments:
+    -h, --help   show this help message and exit
+    -a, --all
+    -t, --today 
 
 
 ## Chapter 3
 
 This program finds amount of solutions for given problem. 
 
-A number that is solution fulfill following rules:
+A number that is a solution fulfills following rules:
 
 1. There are at least two groups of identical adjacent digits
 2. Going from left to right, the digits never decrease
