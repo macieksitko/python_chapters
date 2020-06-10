@@ -37,7 +37,7 @@ c = Car(3,2000,1)
 
 print(c.total_mass())
 
-Result: 2100
+Result: 2210
 
 
 ## Chapter 2
@@ -72,7 +72,7 @@ subcommands:
     update              update item
 
     remove              remove item
-    
+
     list                show list
 
 - chapter2.py add -h
