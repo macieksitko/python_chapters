@@ -14,15 +14,30 @@ Creating an object or assiging values to existing object is constrainted by some
 Car class has got attribute total_mass, which returns car_mass. 
 
 Example:
+
 c = Car(3,2000,1)
-c.pax_count = 3
 
-InvalidCarExeption raises error if an object received invalid values.
+Result: Car added successfully!
 
-Example:
-c = Car(3,2500,1)
-Error: Car_mass out of range InvalidCarMassError
 
+
+wrongcar = Car(5,2100,1)
+
+Result: Error: Car_mass out of range InvalidCarMassError
+
+
+
+c.pax_count = 6
+
+Result: Error: Pax_count out of range InvalidPaxCountError
+
+
+
+c = Car(3,2000,1)
+
+print(c.total_mass())
+
+Result: 2100
 
 
 ## Chapter 2
@@ -30,6 +45,16 @@ Error: Car_mass out of range InvalidCarMassError
 This is command-line script to manage a task list. 
 
 ### Guide to use this script.
+
+Below are all commands you can put in your commanand-line. In case of any problem, use --help command.
+
+NAME is a task name
+
+DEADLINE is a ultimate date of finishing a task
+
+DESPRIPTION is a short additional information about your task
+
+All taksks has also got unique HASH required to update or remove specific task.
 
 usage: chapter2.py [-h] {add,update,remove,list} ...
 
