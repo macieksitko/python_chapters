@@ -54,7 +54,7 @@ DEADLINE is a ultimate date of finishing a task
 
 DESPRIPTION is a short additional information about your task
 
-All taksks has also got unique HASH required to update or remove specific task.
+All tasks have got unique HASH required to update or remove specific task.
 
 usage: chapter2.py [-h] {add,update,remove,list} ...
 
@@ -64,19 +64,28 @@ optional arguments:
   -h, --help            show this help message and exit
 
 subcommands:
+
   {add,update,remove,list}
+
     add                 add item
+
     update              update item
+
     remove              remove item
+    
     list                show list
 
 - chapter2.py add -h
 
   usage: chapter2.py add [-h] [-n NAME] [-d DEADLINE] [-s DESCRIPTION]
   optional arguments:
+
     -h, --help            show this help message and exit
+
     -n NAME, --name NAME
+
     -d DEADLINE, --deadline DEADLINE
+
     -s DESCRIPTION, --description DESCRIPTION
 
 - chapter2.py update -h
@@ -88,9 +97,13 @@ subcommands:
     hash_to_update
 
   optional arguments:
+
     -h, --help            show this help message and exit
+
     -n NAME, --name NAME
+
     -d DEADLINE, --deadline DEADLINE
+
     -s DESCRIPTION, --description DESCRIPTION
 
 - chapter2.py remove -h
@@ -103,8 +116,11 @@ subcommands:
   usage: chapter2.py list [-h] [-a] [-t]
 
   optional arguments:
+
     -h, --help   show this help message and exit
+
     -a, --all
+
     -t, --today 
 
 
