@@ -22,9 +22,9 @@ def main():
             
         if increased_digits == True and ident_group >=2:   #if all conditions are satisfied, increase found
             found += 1 
-            print(number)
     print ("The answer is: {}".format(found))
-
+    
+#The answer is 935
 main()
 
 
